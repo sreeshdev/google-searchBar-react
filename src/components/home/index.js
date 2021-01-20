@@ -13,7 +13,7 @@ const Home = () => {
     const [focus, setFocus] = useState(false);
     console.log(focus);
     const API_URL =
-        "http://suggestqueries.google.com/complete/search?client=youtube&q=";
+        "http://suggestqueries.google.com/complete/search?client=youtube&gl=in&q=";
 
     useEffect(() => {
         search !== "" ? getInfo() : setSuggest([])
