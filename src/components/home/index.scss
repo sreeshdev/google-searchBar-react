@@ -1,0 +1,125 @@
+.quick-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  overflow: hidden;
+  display: flex;
+  margin-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 13px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  li {
+    margin-left: 15px;
+  }
+  li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.logo-space {
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  h6 {
+    margin-left: 15%;
+    color: rgba(128, 128, 128, 0.671);
+    font-size: 12px;
+    font-weight: 100;
+  }
+}
+.nav {
+  height: 80px;
+}
+.sbar {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  //   align-items: center;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: auto;
+  margin: 0 auto;
+  width: 502px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  .close-button {
+    width: 42px;
+    border-right: 1px solid rgba(128, 128, 128, 0.308);
+    cursor: pointer;
+  }
+  hr {
+    border: 0.5px solid rgba(173, 172, 172, 0.226);
+    width: 95%;
+    align-self: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+  }
+  .highlight {
+    font-weight: bolder;
+  }
+  li {
+    padding-bottom: 5px;
+    margin-left: 0;
+  }
+  li:hover {
+    background-color: rgba(211, 209, 209, 0.26);
+  }
+  .bar {
+    display: flex;
+    margin: 0 auto;
+    width: 482px;
+    align-items: center;
+  }
+  .search-bar {
+    width: 460px;
+    height: 42px;
+    font-size: 18px;
+    border: transparent;
+    outline: transparent;
+  }
+  i {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.buttons {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  margin: 20px auto;
+  width: 482px;
+  button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  button:hover {
+    border: 1px solid #8b8b8b80;
+  }
+}
